@@ -35,7 +35,7 @@
                                 echo "<td>$no</td>";
                                 echo "<td>$kategori->name</td>";
                                 echo "<td>
-                                        <a href='" . base_url('kategori/edit/' . $kategori->id) . "' class='btn btn-sm btn-info'>
+                                        <a href='" . base_url('kategori/getedit/' . $kategori->id) . "' class='btn btn-sm btn-info'>
                                             <i class='fas fa-edit'></i> Edit
                                         </a>
                                         <a href='" . base_url('kategori/delete/' . $kategori->id) . "' class='btn btn-sm btn-danger' onclick='return confirm(\"Ingin menghapus data user ini?\")'>

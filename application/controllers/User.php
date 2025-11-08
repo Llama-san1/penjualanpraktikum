@@ -50,7 +50,7 @@ class User extends CI_Controller {
     }
     public function edit()
     {
-        $this->User_model->editData();
+        $this->User_model->editdata();
         if($this->db->affected_rows()>0){
             $this->session->set_flashdata("success","Data User Berhasil Diupdate");
         }
